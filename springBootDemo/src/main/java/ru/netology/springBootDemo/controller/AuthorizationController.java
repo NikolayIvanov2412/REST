@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/auth")
 public class AuthorizationController {
 
-    private final AuthorizationService service; // Исправлено: тип переменной - AuthorizationService
+    private final AuthorizationService service;
 
     @Autowired
     public AuthorizationController(AuthorizationService service) {
