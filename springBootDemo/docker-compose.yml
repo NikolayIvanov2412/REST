@@ -1,0 +1,8 @@
+services:
+  auth-service:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./target:/app
+    container_name: authorization_service
